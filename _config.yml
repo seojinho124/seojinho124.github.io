@@ -112,10 +112,10 @@ author:
   links:
     - label: "Personal Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:seojinho124@gmail.com"
+      # url: "mailto:seojinho124@gmail.com"
     - label: "Academic Email"
       icon: "fas fa-fw fa-link"
-       url: "mailto:jhoseo@ucdavis.edu"
+     #  url: "mailto:jhoseo@ucdavis.edu"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
