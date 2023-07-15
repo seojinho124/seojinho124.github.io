@@ -104,18 +104,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jin Ho Seo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "I am an **Computational Chemist** ."
+  location         : "USA-KOR"
+  email            : "seojinho124@gmail.com"
   links:
-    - label: "Email"
+    - label: "Personal Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
+       url: "mailto:seojinho124@gmail.com"
+    - label: "Academic Email"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+       url: "mailto:jhoseo@ucdavis.edu"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
