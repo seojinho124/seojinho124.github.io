@@ -1,3 +1,7 @@
+---
+layout: post
+title:  "Pandas Basic Methods"
+---
 ```python
 import pandas as pd
 hat = pd.read_csv('ch4-1.csv')
