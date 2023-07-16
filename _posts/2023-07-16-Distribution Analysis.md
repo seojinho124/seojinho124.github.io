@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Plotting Bar Graph"
+---
+
 ```python
 import pandas as pd
 b = pd.read_csv('ch4-2.csv')
