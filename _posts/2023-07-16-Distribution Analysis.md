@@ -174,7 +174,7 @@ plt.show()
 
 
     
-![png](output_3_0.png)
+![png](output_Distribution_3_0.png)
     
 
 
@@ -198,7 +198,7 @@ plt.show()
 
 
     
-![png](output_4_0.png)
+![png](output_Distribution_4_0.png)
     
 
 
@@ -224,7 +224,7 @@ plt.show()
 
 
     
-![png](output_5_0.png)
+![png](output_Distribution_5_0.png)
     
 
 
