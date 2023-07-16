@@ -1,3 +1,16 @@
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+    
 ```python
 import pandas as pd
 hat = pd.read_csv('ch4-1.csv')
