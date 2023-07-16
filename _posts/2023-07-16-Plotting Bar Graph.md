@@ -25,7 +25,7 @@ plot.show()
 
 
     
-![png](output_2_0.png)
+![png]((images)output_2_0.png)
     
 
 
