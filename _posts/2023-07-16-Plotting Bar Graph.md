@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pandas Basic Methods"
+title:  "Plotting Bar Graph"
 ---
     
 ```python
