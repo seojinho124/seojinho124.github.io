@@ -17,8 +17,8 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale                   : "en-US"
 title                    : "Jin Ho Seo"
-title_separator          : "|"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "-"
+subtitle                 : "Let There Be Light"
 name                     : "Jin Ho Seo"
 description              : "My Blog"
 url                      : "https://seojinho124.github.io"
