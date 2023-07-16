@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Plotting Bar Graph"
+title:  "Distribution Analysis"
 ---
 
 ```python
