@@ -1,3 +1,7 @@
+---
+layout: post
+title:  "Null Hypothesis"
+---
 ```python
 import pandas as pd
 # Importing pandas package
