@@ -1,3 +1,7 @@
+---
+layout: post
+title:  "Finding the correlation"
+---
 ```python
 import pandas as pd
 # Import pandas package as pd
