@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Welcome to my blog!"
+---
+
 ```python
 # Regression Analysis is simply a way to find the correlation in linear format.
 # In order to do regression analysis, 5 conditions must meet.
