@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Finding the correlation"
+title:  "Finding The Correlation"
 ---
 ```python
 import pandas as pd
