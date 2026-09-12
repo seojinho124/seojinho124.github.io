@@ -1,0 +1,10 @@
+<a class="skip" href="#content">Skip to content</a>
+<nav class="site-nav" aria-label="Primary navigation"><div class="nav-inner">
+<a class="brand" href="{{ '/' | relative_url }}">JIN HO SEO</a>
+<div class="nav-links">
+<a{% if page.url == '/' %} class="active"{% endif %} href="{{ '/' | relative_url }}">Home</a>
+<a{% if page.url == '/current-work/' %} class="active"{% endif %} href="{{ '/current-work/' | relative_url }}">Current Work</a>
+<a{% if page.url == '/coding-notes/' %} class="active"{% endif %} href="{{ '/coding-notes/' | relative_url }}">Coding Notes</a>
+<a{% if page.url == '/teaching/' %} class="active"{% endif %} href="{{ '/teaching/' | relative_url }}">Teaching</a>
+<a{% if page.url == '/contact/' %} class="active"{% endif %} href="{{ '/contact/' | relative_url }}">Contact</a>
+</div></div></nav>
