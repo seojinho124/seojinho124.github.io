@@ -1,0 +1,50 @@
+:root{--ink:#10282e;--muted:#5c7075;--paper:#f5f5ef;--card:#fff;--accent:#d85f45;--teal:#176d6a;--line:rgba(16,40,46,.14);--max:1040px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",system-ui,sans-serif;line-height:1.68}
+a{color:inherit}
+h1,h2,h3,p{margin-top:0}
+h1,h2,h3,.brand{font-family:"Manrope",system-ui,sans-serif;letter-spacing:-.035em;line-height:1.1}
+.skip{position:absolute;left:-9999px}.skip:focus{left:1rem;top:1rem;background:#fff;padding:.7rem;z-index:30}
+.site-nav{position:sticky;top:0;z-index:20;background:rgba(245,245,239,.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav-inner{max-width:var(--max);margin:auto;padding:1rem 24px;display:flex;align-items:center;justify-content:space-between;gap:2rem}
+.brand{font-weight:800;text-decoration:none;white-space:nowrap}
+.nav-links{display:flex;gap:1.35rem;align-items:center}
+.nav-links a{color:var(--muted);font-size:.9rem;text-decoration:none;padding:.2rem 0;border-bottom:2px solid transparent}
+.nav-links a:hover,.nav-links a.active{color:var(--ink);border-color:var(--accent)}
+main{min-height:calc(100vh - 150px)}
+.home-hero,.page-hero,.content{max-width:var(--max);margin:auto;padding-left:24px;padding-right:24px}
+.home-hero{min-height:78vh;display:grid;grid-template-columns:1.35fr .65fr;gap:5rem;align-items:center;padding-top:5rem;padding-bottom:5rem}
+.page-hero{padding-top:clamp(5rem,10vw,8rem);padding-bottom:3.5rem;border-bottom:1px solid var(--line)}
+.eyebrow{color:var(--teal);font-weight:700;text-transform:uppercase;letter-spacing:.16em;font-size:.76rem}
+h1{font-size:clamp(3.1rem,8vw,6.7rem);margin:.6rem 0 1.4rem}
+.page-hero h1{font-size:clamp(3rem,7vw,5.4rem)}
+.lede{max-width:700px;color:var(--muted);font-size:clamp(1.08rem,2vw,1.3rem)}
+.orb{aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff 0 5%,#efc36b 6% 12%,#d85f45 30%,#176d6a 68%,#0a2026 100%);box-shadow:0 28px 70px rgba(23,109,106,.2)}
+.actions{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
+.button{display:inline-block;padding:.8rem 1.1rem;border:1px solid var(--ink);border-radius:999px;text-decoration:none;font-weight:600}
+.button.primary{background:var(--ink);color:#fff}
+.content{padding-top:4rem;padding-bottom:6rem}
+.section{padding:2.5rem 0;border-bottom:1px solid var(--line)}
+.section:last-child{border-bottom:0}
+.split{display:grid;grid-template-columns:.48fr 1.52fr;gap:3rem}
+.split h2{font-size:clamp(1.8rem,4vw,2.8rem)}
+.split>div>p{color:var(--muted);max-width:680px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin-top:2rem}
+.card,.note{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.4rem}
+.card h3,.note h2{font-size:1.2rem;margin-bottom:.6rem}
+.card p,.note p{color:var(--muted);margin-bottom:0}
+.note-list{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
+.note{display:block;text-decoration:none;transition:.2s}
+.note:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 12px 28px rgba(16,40,46,.07)}
+.note time{color:var(--teal);font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em}
+.note h2{margin:.85rem 0 0}
+.contact-box{background:var(--ink);color:#f8f7f1;border-radius:20px;padding:clamp(1.7rem,5vw,3.5rem)}
+.contact-box h2{font-size:clamp(2rem,5vw,3.4rem);max-width:700px}
+.contact-box p{color:#c2d0d2;max-width:650px}
+.contact-box .button{border-color:#f8f7f1}
+footer{background:#091c21;color:#a9bdc1;padding:1.4rem 24px}
+.footer-inner{max-width:var(--max);margin:auto;display:flex;justify-content:space-between;gap:1rem;font-size:.88rem}
+@media(max-width:820px){.nav-inner{align-items:flex-start;flex-direction:column;gap:.7rem}.nav-links{width:100%;overflow-x:auto;padding-bottom:.2rem}.nav-links a{white-space:nowrap}.home-hero{grid-template-columns:1fr;min-height:auto;gap:3rem}.orb{width:min(62%,280px)}.split{grid-template-columns:1fr}.cards,.note-list{grid-template-columns:1fr}}
+@media(max-width:520px){.nav-inner,.home-hero,.page-hero,.content{padding-left:18px;padding-right:18px}h1{font-size:clamp(2.9rem,15vw,4.5rem)}.footer-inner{flex-direction:column}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.note{transition:none}.note:hover{transform:none}}
